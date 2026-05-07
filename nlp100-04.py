@@ -1,9 +1,14 @@
-ice="Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
-cream=ice.split()
+a="Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
+b=a.split()
 
-rubychan=[0,4,5,6,7,8,14,15,18]
+c={1,5,6,7,8,9,15,16,19}
 
-for ayumuchan in rubychan:
-    shikichan=cream[ayumuchan]
-    for CookieandCream in shikichan:
-        print(CookieandCream)
+for i,swk in enumerate(b,start=1):
+    if i in c:
+       print(i,swk[0])
+    else:
+        print(i,swk[:2]) 
+
+
+#アルゴリズムの先生のP113
+#[]と{}の違いはリストと辞書
